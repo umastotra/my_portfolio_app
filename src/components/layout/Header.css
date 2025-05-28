@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background: transparent;
+  background: none;
   z-index: 1000;
   padding: 1.2rem 2rem;
   display: flex;

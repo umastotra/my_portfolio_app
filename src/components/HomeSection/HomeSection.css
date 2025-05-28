@@ -1,14 +1,18 @@
 .home {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 2rem;
+  min-height: 100vh;
+}
+/* Wrapper grid */
+.home-wrapper {
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 6rem 4rem 2rem; /* Add top space to avoid overlap with nav */
-  min-height: 100vh;
-  /* Create radial background that starts with a glow behind image */
-  /* Gradient centered to the right, vivid purple core */
-  background: none;
-
-  color: #f1f5f9;
+  width: 100%;
+  max-width: 1200px;
+  gap: 2rem;
 }
 
 /* Left content (text) */
@@ -68,12 +72,13 @@
   flex: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .home-right img {
   width: 320px;
+  height: auto;
   border-radius: 16px;
+  object-fit: cover;
   box-shadow: 0 0 40px rgba(168, 85, 247, 0.3); /* soft purple glow */
 }
 
