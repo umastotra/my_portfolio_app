@@ -1,0 +1,85 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6rem 4rem 2rem; /* Add top space to avoid overlap with nav */
+  min-height: 100vh;
+  /* Create radial background that starts with a glow behind image */
+  /* Gradient centered to the right, vivid purple core */
+  background: none;
+
+  color: #f1f5f9;
+}
+
+/* Left content (text) */
+.home-left {
+  flex: 1;
+  max-width: 50%;
+}
+
+.home-left h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.highlight {
+  color: #fff;
+  font-weight: bold;
+}
+
+.gradient-role {
+  font-size: 2rem;
+  font-weight: 600;
+  background: linear-gradient(to right, #0ea5e9, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home-left p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(to right, #8b5cf6, #06b6d4); /* blue to purple */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(
+    to right,
+    #0ea5e9,
+    #55f7f4
+  ); /* brighter blue + purple */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4); /* deeper shadow */
+}
+
+/* Right image styling */
+.home-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-right img {
+  width: 320px;
+  border-radius: 16px;
+  box-shadow: 0 0 40px rgba(168, 85, 247, 0.3); /* soft purple glow */
+}
+
+.cutout-img {
+  width: 320px;
+  height: auto;
+  object-fit: cover;
+  filter: drop-shadow(0 0 30px rgba(168, 85, 247, 0.3)); /* subtle glow */
+}

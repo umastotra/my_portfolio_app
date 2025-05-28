@@ -1,0 +1,36 @@
+/* Contact section styling */
+.contact {
+  padding: 4rem 2rem;
+  background-color: none;
+  color: #f1f5f9;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+/* Contact links */
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.contact-links a {
+  color: #3bcef6d6;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
+}
