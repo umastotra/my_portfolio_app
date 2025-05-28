@@ -1,4 +1,3 @@
-import React from "react";
 import "./AboutSection.css";
 
 import pythonLogo from "../../assets/tech/python.png";

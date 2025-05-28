@@ -1,4 +1,3 @@
-import React from "react";
 import { techLogos } from "../../constants/techlogos";
 import "./ProjectsSection.css";
 

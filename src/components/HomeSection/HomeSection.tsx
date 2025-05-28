@@ -1,4 +1,3 @@
-import React from "react";
 import "./HomeSection.css";
 import profilePic from "../../assets/uma_pic.png";
 
