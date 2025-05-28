@@ -22,7 +22,7 @@ Built from scratch using modern frontend and backend technologies.
 
 ## 🚀 Live Demo
 
-🌍 [View Live Portfolio](https://your-vercel-link.vercel.app)
+🌍 [View Live Portfolio](https://my-portfolio-app-sable.vercel.app/)
 
 ## 🛠️ Tech Stack
 
