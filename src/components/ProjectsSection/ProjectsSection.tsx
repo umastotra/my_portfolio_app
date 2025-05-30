@@ -7,8 +7,8 @@ const projects = [
     description:
       "This personal portfolio site built from scratch with Vite, React, and TypeScript.",
     tech: ["React", "TypeScript", "CSS", "Vite"],
-    github: "https://github.com/yourusername/my_portfolio_app",
-    demo: "https://yourname.vercel.app",
+    github: "https://github.com/umastotra/my_portfolio_app",
+    demo: "https://my-portfolio-app-sable.vercel.app/",
   },
   {
     title: "GitHub Repo Tracker App",
@@ -24,15 +24,12 @@ const projects = [
       "PostgreSQL",
     ],
     github: "https://github.com/umastotra/github-repotracker",
-    demo: "https://github-repotracker.vercel.app",
   },
   {
-    title: "TaskSync App",
+    title: "TaskSync App - Coming Soon",
     description:
       "A task collaboration tool with user authentication, built using FastAPI and React.",
     tech: ["React", "TypeScript", "FastAPI", "PostgreSQL"],
-    github: "https://github.com/yourusername/tasksync",
-    demo: "https://tasksync.vercel.app",
   },
 ];
 

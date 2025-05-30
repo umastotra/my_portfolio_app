@@ -5,8 +5,8 @@ interface ProjectCardProps {
   title: string;
   description: string;
   tech: string[];
-  github: string;
-  demo: string;
+  github?: string;
+  demo?: string;
 }
 
 // This reusable component renders a single project card with all its details
